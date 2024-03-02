@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from 'react'
 
 const useRedditClient = () => {
-  const [temporary, setTemporary] = useState("temporary");
+    const [temporary, setTemporary] = useState('temporary')
 
-  return [temporary, setTemporary];
-};
+    return [temporary, setTemporary]
+}
 
-export default useRedditClient;
+export default useRedditClient

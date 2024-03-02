@@ -1,1 +1,1 @@
-export * from "./useRedditClient";
+export * from './useRedditClient'
